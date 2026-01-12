@@ -12,7 +12,7 @@ danh sách điều kiện (`conditions list`)
 danh sách giá trị (`values list`). 
 `np.where` (nested if-else).
  encoding='Latin1'
-Day 3: 
+### Day 3: isin, get duplicate data in dataframe 
 isin(['...','...']) find many conditions show condition by a list[]
 duplicate() to get the duplicate in dataframe use [~duplicate] to get the non duplicate
 + keep = first
