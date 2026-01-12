@@ -11,6 +11,17 @@ Sử dụng: `np.where( 'dataframe' > condition, name1 , name2...)`
 danh sách điều kiện (`conditions list`) 
 danh sách giá trị (`values list`). 
 `np.where` (nested if-else).
-
+ encoding='Latin1'
+Day 3: 
+isin(['...','...']) find many conditions show condition by a list[]
+duplicate() to get the duplicate in dataframe use [~duplicate] to get the non duplicate
++ keep = first
++ keep = last
++ false = we are not going to keep neither first duplicate value nor the last one
+~ is not operator
+drop_duplicates() remove duplicate element
++ ignore index, inplace : update dataframe
+unique() to get unique element into a list 
+nunique() to get number of unique the same with len function (excludes NA value)
 
 
