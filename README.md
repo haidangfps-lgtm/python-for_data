@@ -23,5 +23,17 @@ drop_duplicates() remove duplicate element
 + ignore index, inplace : update dataframe
 unique() to get unique element into a list 
 nunique() to get number of unique the same with len function (excludes NA value)
+### Day 4
+select method to get data we want
+loc['rowlabel','column'] (label)
+iloc[number, :] (position)
+.set_index() to set the column into an index in dataframe
+df[['...']] select many columns
+.index[] to get top in dataframe
+update data .loc[] = ... set new value 
+np.nan convert data into NaN
 
-
+Two method to drop columns or rows
++ axis 0 : row , 1 : column .drop([...], axis = ...,)
++ parameter (index = [...]) (columns = [...])
+.drop(index = [...], )
