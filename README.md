@@ -62,3 +62,8 @@ we have 2 ways to select and filter
   + df0 = df.copy() (deep = true) then not reflected on copy df
   + df1 = df.copy(deep = false) will be reflected with the original df
   + df2 = df (exactly the same with deep = true)
+### Day 6 resharping table
+- pivot() (reshape dataframe to get a different view to have a better analysis)
+  + df.pivot(index=, columns=, values=)
+- pivot_tale() (have aggreate function)
+  + df.pivot_table(index =,column,values, aggfunc = )
