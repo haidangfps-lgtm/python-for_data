@@ -67,3 +67,13 @@ we have 2 ways to select and filter
   + df.pivot(index=, columns=, values=)
 - pivot_tale() (have aggreate function)
   + df.pivot_table(index =,column,values, aggfunc = )
+### Day 7
+# project
+- dropna() (drop null values)
+- .plot(kind = line/bar/pie/box/hist/scatter, color, xlable, ylable, title, figsize=(x,y)) (visualization)
+- index.isin() single/multi to find variables barplot
+- df.T (**transpose** / pivot single index)
+- to_excel('name file') exported file to excel
+- import matplotlib.pyplot as plt (libraly use to manage plot)
+- plt.savefig() / plt.show()
+- df.iplot() to interact with plot
