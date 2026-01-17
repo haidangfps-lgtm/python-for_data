@@ -77,3 +77,13 @@ we have 2 ways to select and filter
 - import matplotlib.pyplot as plt (libraly use to manage plot)
 - plt.savefig() / plt.show()
 - df.iplot() to interact with plot
+### Day 8 aggreate function groupby
+- .agg('function')
+- different agg percolumn have to  create a dict .agg({['':','],[]})
+  + we can also agg over the column
+- set index for agg .agg(x = (), y = ())
+- .groupby('column', asindex = False, dropna = ...).sum()     False not drop null value in your groupby 
+- .groups to group attribute and key  - .groups.keys() to take the key
+- .get_group() to take the group 
+- isnull().sum()  to find  null values
+- .filter() + def
