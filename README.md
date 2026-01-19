@@ -91,3 +91,5 @@ we have 2 ways to select and filter
 
 - isnull().sum()  to find  null values
 - .filter() + def
+### Day 9 concatenate, merging dataframe
+- pd.concat()  (axis = 0 to concat vertically // 1 to horizontally)
