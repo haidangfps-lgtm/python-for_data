@@ -93,3 +93,7 @@ we have 2 ways to select and filter
 - .filter() + def
 ### Day 9 concatenate, merging dataframe
 - pd.concat()  (axis = 0 to concat vertically // 1 to horizontally)
+- df1.merge(df2, on = , how = inner / outer / left) to join 2 df  (like sql inner join is default)
+  + we can also use pd.merge(df1,df2,on) the same result with method 1
+  + indicator = True: take the _merge column (exclutive join) that indicate the data where it's in 
+    + use .query(_merge = left or .. to take that data where it's belonging to)
