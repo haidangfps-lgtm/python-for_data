@@ -151,6 +151,7 @@ we have 2 ways to select and filter
   +  with linear_model we dont need add constant
     + linear_model.LinearRegression() show array
     + lm.score(X,y), lm.coef, lm.intercept_
+# project 4 binary text classification
 - !pip install imblearn To blance data automatically (sklearn, imblearn)
   + from imblearn.under_sampling  import RandomUnderSample
     + RandomUnderSampler(random_state = 0)
